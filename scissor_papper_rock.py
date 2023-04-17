@@ -2,7 +2,7 @@ import random
 
 user_wins = 0
 computer_wins = 0
-options =  ["scissor","paper","rock"]
+options =  ["scissor","Paper","Rock"]
 
 while True:
     user_input = input("Type Scissor/Paper/Rock or Q to Quit").lower()
@@ -13,7 +13,7 @@ while True:
         continue 
         
     random_number = random.randint(0,2)
-    # scissor 0,paper 1,rock2
+    # scissor 0,paper 1,rock 2
 
     computer_pick = options[random_number]
     print("computer picked", computer_pick + ".")
@@ -40,4 +40,4 @@ while True:
 
 print("YOU WON",user_wins, "times.")
 print("COMPUTER WON",computer_wins, "times.")
-print ("TQ GOOD BYE!")
+print ("THANK YOU GOOD BYE!")
