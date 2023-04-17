@@ -8,9 +8,9 @@ while True:
     attempts += 1
 
     if user_guess == random_number:
-        print(f"Congratulations! You guessed the number in {attempts} attempts.")
+        print(f"Congratulationsss! You guessed the number in {attempts} attempts.")
         break
     elif user_guess > random_number:
-        print("Too high! Try again.")
+        print("Too high!! Try again.")
     else:
-        print("Too low! Try again.")
+        print("Too low!! Try again.")
